@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// import './index.css'
+import './index.css'
 import {App} from './App.jsx'
 import DashboardClassComponent from './DashboardClassComponent.jsx'
 import Practice from './Practice.jsx'
@@ -20,6 +20,10 @@ import UseEffectExample from './UseEffectExample.jsx'
 import WithoutUseContext from './UseContext/WithoutUseContext.jsx'
 import ProviderComponent from './UseContext/ProviderComponent.jsx'
 import ModeProvider from './UseContext/ModeProvider.jsx'
+import ParentComp from './UseCallback/ParentComp.jsx'
+import ParentTheme from './UseCallback/ParentTheme.jsx'
+import UseMemoExample from './UseMemo/UseMemoExample.jsx'
+import UseReducerExample1 from './UseReducer/UseReducerExample1.jsx'
 
 function Laptop(){
 
@@ -70,6 +74,6 @@ const versions = [1,2,3];
 createRoot(document.getElementById('root')).render(
   
     
-<ModeProvider />
+<UseReducerExample1 />
 
 )
